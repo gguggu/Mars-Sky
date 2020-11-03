@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: nanum-my;
+  font-display: block;
+  src: url('../asset/fonts/NanumMyeongjo.ttf') format('truetype');
+ }
+ 
+@font-face {
+  font-family: nanum-my-b;
+  font-display: block;
+  src: url('../asset/fonts/NanumMyeongjoBold.ttf') format('truetype');
+ }
+ 
+@font-face {
+  font-family: nanum-my-exB;
+  font-display: block;
+  src: url('../asset/fonts/NanumMyeongjoExtraBold.ttf') format('truetype');
+ }
+ 
