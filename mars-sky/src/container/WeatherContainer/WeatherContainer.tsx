@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Weather } from 'component/Weather/Weather'
+import useWeather from 'hooks/useWeather';
 
-interface Props {
-  
-}
+export const WeatherContainer = () => {
+  const [weatherState, getWeather] = useWeather();
 
-export const WeatherContainer = (props: Props) => {
+  useEffect(() => {
+    getWeather();
+  }, []);
+
+  console.log(weatherState);
+
   return <Weather/>;
 }
